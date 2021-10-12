@@ -34,6 +34,10 @@
     background-image: url('img/Vertigo.png');
 }
 
+#FI{
+
+}
+
 .TT{
 }
 html{
@@ -46,14 +50,28 @@ body{
    
 }
 header{
+    color:black;
+    margin: 0%;
+    height: 100%;
+    text-align: center;
+    padding: 21%;
+    font-size:xx-large;
 }
 nav{
+    margin: 0%;
+    height: 100%;
 }
 aside{
+    margin: 0%;
+    height: 100%;
 }
 section{
+    margin: 0%;
+    height: 100%;
 }
 footer{
+    margin: 0%;
+    height: 100%;
 }
 
 ::-webkit-scrollbar {
