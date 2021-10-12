@@ -1,4 +1,49 @@
-body{ background-image: url("img/Dust2.jfif"); 
+.BI{
+    background-image: url('img/Dust2.jfif');
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+    height:100%;
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.I1{
+    background-image: url('img/Dust2.jpg');
+}
+
+.I2{
+    background-image: url('img/Mirage.jpg');
+}
+
+.I3{
+    background-image: url('img/Inferno.jpg');
+}
+
+.I4{
+    background-image: url('img/Overpass.png');
+}
+
+.I5{
+    background-image: url('img/Nuke.jfif');
+}
+
+.I6{
+    background-image: url('img/Vertigo.png');
+}
+
+.TT{
+}
+html{
+    height: 100%;
+}
+
+body{ 
+    margin: 0%;
+    height: 100%;
+   
 }
 header{
 }
@@ -9,4 +54,9 @@ aside{
 section{
 }
 footer{
+}
+
+::-webkit-scrollbar {
+    width: 0;  
+    background: transparent;
 }
