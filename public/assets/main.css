@@ -1,47 +1,99 @@
+.stytt{
+    position: sticky;
+    position: -webkit-sticky;  
+    top: 30%;
+}
+
+.styt{
+    position: sticky;
+    position: -webkit-sticky;  
+    top: 20%;
+}
+
+.sty{
+    position: sticky;
+    position: -webkit-sticky;  
+    top: 0%;
+}
+
 .BI{
     background-image: url('img/Dust2.jfif');
     filter: blur(0px);
     -webkit-filter: blur(0px);
-    height:100%;
+    height:200%;
     background-attachment:fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 
 .I1{
-    background-image: url('img/Dust2.jpg');
+    background-image: url('img/BG/Dust2.jpg');
+    height: 400%;
 }
 
 .I2{
-    background-image: url('img/Mirage.jpg');
+    background-image: url('img/BG/Mirage.jpg');
 }
 
 .I3{
-    background-image: url('img/Inferno.jpg');
+    background-image: url('img/BG/Inferno.jpg');
 }
 
 .I4{
-    background-image: url('img/Overpass.png');
+    background-image: url('img/BG/Overpass.png');
 }
 
 .I5{
-    background-image: url('img/Nuke.jfif');
+    background-image: url('img/BG/Nuke.jfif');
 }
 
 .I6{
-    background-image: url('img/Vertigo.png');
+    background-image: url('img/BG/Vertigo.png');
 }
 
-#FI{
-
+.space{
+height: 15%;
 }
 
-.TT{
+
+
+.grid{
+display: grid;
 }
+
+.cup{
+    
+    display:block;
+    color:white;   
+    font-size:200%;
+   width: 100%;
+   height: 0%;
+   text-shadow: 2px 2px 0 black;
+   text-align: center;
+   font-family: 'Courier New';
+   font-weight: bold;
+
+
+
+}
+.itxt{
+    font-family: 'Courier New';
+    display:block;
+    color:white;   
+    font-size:200%;
+   width: 30%;
+   height: 0%;
+   padding-top: 7%;
+   }
+
+.tri{
+    text-align: right;
+    float: right;
+}
+
 html{
-    height: 100%;
+    height:100%;
 }
 
 body{ 
@@ -50,16 +102,27 @@ body{
    
 }
 header{
-    color:black;
+    display: block;
+    color:white;
     margin: 0%;
-    height: 100%;
+    height: 25%;
+    padding: 0%;
+    font-size:1000%;
+    font-family: Impact;
     text-align: center;
-    padding: 21%;
-    font-size:xx-large;
+    align-content: center;
+    justify-content: center;
+    text-shadow: 20px 20px 0 black;
+  
+   
 }
 nav{
     margin: 0%;
-    height: 100%;
+    height: 1%; 
+    padding: 0%;
+    color: white;
+    background-color: rgba(155, 155, 255, 100);
+
 }
 aside{
     margin: 0%;
