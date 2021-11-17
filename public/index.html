@@ -1,191 +1,633 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSGO101</title>
-    <link rel="stylesheet" href="assets/main.css"/>
+    <link rel="stylesheet" href="assets/main.css" />
     <link rel="icon" href="assets/img/ico.ico" type="image/icon">
     <script defer src="assets/main.js"></script>
     <script src="assets/jquery-3.6.0.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap" rel="stylesheet">
 </head>
+
 <body>
+    <header>
+        <nav>
+            <Figure>
+                <img src="assets/img/ico.ico">
+            </Figure>
+            <a href="#sectionfront">Home</a>
+            <a href="#sectionbasic">Basic</a>
+            <a href="#sectionguns">Guns</a>
+            <a href="#sectioneconomic">Economic</a>
+            <a href="#sectionmovments">Movments</a>
+            <a href="#sectionutility">Utility</a>
+            <a href="#sectionintel">Intel</a>
+            <a href="#sectionplaystyles">Play-Styles</a>
+            <a href="#sectionroles">Roles</a>
+        </nav>
+    </header>
+    <section id=sectionfront>
+        <h1>CSGO101</h1>
+        <Div class=flexcontainerfront>
+            <div class=textboxfront><a href="https://blog.counter-strike.net/" target="_blank">CSGO Blog</a></div>
+            <div class=textboxfront><a href="https://counterstrike.fandom.com/wiki/Counter-Strike:_Global_Offensive"
+                    target="_blank">CSGO Fandom</a></div>
+        </Div>
+        <Div class=flexcontainerfront>
+            <div class=textboxfront><a href="https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/"
+                    target="_blank">CSGO Steam</a></div>
+        </Div>
+    </section>
+    <section class=sectionblank>
+        Basic
+    </section>
+    <section id=sectionbasic>
+        <div class="flexcontainer">
+            <div class="textbox">
+                As i know so far, CSGO is a tactical shooter,
+                hard based (mostly) on knowladge and team-play, many people think that you only need skill
+                and you can carry all of your teammates versus 5 another players from another team, but,
+                no one is "one man army",
+                clutches and acese happen far more rare when you can expect them to happen, and many new players
+                misunderstand all of gameplay of this game, so here we go. <br>
+                I don't need to say here what we will analyse 16-Round MatchMaking (ab. MM) on Defusal Group and I will
+                assume that you, guest on my site, have minimal understanding on main mechanics of this game and played
+                at least one MM
+            </div>
+        </div>
+        <div class="flexcontainer">
+            <div class="imgwithtextblock">
+                <figure>
+                    <img src="/public/assets/img/Gif/DAce.gif">
+                </figure>
+                Exemple of Ace
+            </div>
+        </div>
+    </section>
+    <section class=sectionblank>
+        Guns
+    </section>
+    <section id=sectionguns>
+        <div class="flexcontainer">
+            <div class="textbox">
+                First thing what happen to you then you spawn before round start,
+                is that you start with USP or Glock in your hand and some money in your wallet,
+                of course you will want to buy something more powerfull like AWP, but how about other weapons...
+                Where are 3 main group of them in the game: Pistols, Main (Rifle and Sniper Rifle), Farm (SMG and
+                Shotguns):
+            </div>
+        </div>
 
-<div class="I1 BI">
-    
+        <div class="flexcontainer">
+            <div class="textbox">
+                Some tips: <br>
+                ---- <br>
+                -> Cycle weapon (for exemple from main weapon to knife and back ) <br>
+                to end recoil of weapon, there usefull then you lost control over an AK or Deagle <br>
+                ---- <br>
+                -> Try to relax and tap (shot one bullet at time) with your weapon <br>
+                it's surprisingly usefull tip becouse many players start to panic as soon as they see enemy <br>
+                ---- <br>
+                -> Mostly every weapon will one shot in head the enemy without second kevlar <br>
+            </div>
+        </div>
 
-        <header>
-            <div class="stytt" >CSGO101</div>
-        </header>
-        <a id="a1"></a>
-        <div class="styt cup">
-        
-        <em> Summary </em> <br><br>
-        <a href="#a2">Basic Overview</a> <br>
-        <em>Basic Game Mechanics</em> <br>  
-        <a href="#a3">Guns </a>  <br>
-        <a href="#a4">Economic</a> <br>
-        <a href="#a5">Movments</a> <br>
-        <a href="#a6">Utility</a> <br>
-        <em>Teamplay</em> <br>
-        <a href="#a7">Play-Styles</a> <br> 
-        <a href="#a8">Roles</a> <br>
+        <div class="flexcontainer">
+            <div class="textbox">
+                Note: <br>
+                After Ragdoll update, every gun have slighty changed spray pattern, so pattern from below are not 100%
+                accurate anymore <br>
+            </div>
+        </div>
+
+        <div class="flexcontainer">
+            <div class="textbox">
+                Pistols
+            </div>
+        </div>
+
+        <div class="flexcontainer">
+            <div class="imgwithtextblock">
+                <figure class="gunimg" id=p2000>
+                    <img src="/public/assets/img/Weapon/P2000.png">
+                </figure>
+
+                P2000 <br>
+                Free <br>
+                13/52 ammo <br>
+                Try to spray in body with this pistol <br>
+
+
+            </div>
+            <div class="imgwithtextblock">
+                <figure class="gunimg" id="usp-s">
+                    <img src="/public/assets/img/Weapon/USP-S.png">
+                </figure>
+                USP-S<br>
+                Free<br>
+                12/24 ammo<br>
+                Don't spray if you don't want to run dry <br>
+                Don't be afraid to shot through smoke <br>
+                because of silencer, tracers are not visibles<br>
+            </div>
+
+            <div class="imgwithtextblock">
+                <figure class="gunimg" id="glock">
+                    <img src="/public/assets/img/Weapon/Glock-18.png">
+                </figure>
+                Glock<br>
+                Free<br>
+                20/120 ammo<br>
+                Don't worry to prefire every position <br>
+                or shoting out your entair magazine<br>
+                Don't use burst mode, <br>
+                standard fire mode is more rapid and contorable <br>
+                Be carefull, it require 3 headshot to kevlar and <br>
+                2 headshot to non kevlar to kill <br>
+            </div>
+
+            <div class="imgwithtextblock">
+                <figure class="gunimg" id="dual">
+                    <img src="/public/assets/img/Weapon/Dual_Berettas.png">
+                </figure>
+                Dual Berettas<br>
+                300$<br>
+                30/120 ammo<br>
+                Don't worry to prefire every position <br>
+                or shoting out your entair magazine<br>
+                It's a close range weapon <br>
+            </div>
+
+            <div class="imgwithtextblock">
+                <figure class="gunimg" id="p250">
+                    <img src="/public/assets/img/Weapon/P250.png">
+                </figure>
+                P250<br>
+                300$<br>
+                13/26 ammo<br>
+                Don't spray if you don't want to run dry <br>
+                One shot in head
+                <br> and <br>
+                One in torso will kill an enemy <br>
+                Very good pistol with easy spray pattern <br>
+                and high accuracy <br>
+
+            </div>
+
+            <div class="imgwithtextblock">
+                <figure class="gunimg" id="fs">
+                    <img src="/public/assets/img/Weapon/Five-SeveN.png">
+                </figure>
+                Five-SeveN<br>
+                500$<br>
+                20/100 ammo<br>
+                Don't worry to prefire every position <br>
+                or shoting out your entair magazine<br>
+                Oneshot in head on close range<br>
+                Be carefull with strange spray pattern <br>
+
+            </div>
+
+            <div class="imgwithtextblock">
+                <figure class="gunimg" id="tec">
+                    <img src="/public/assets/img/Weapon/Tec-9.png">
+                </figure>
+                Tec-9<br>
+                500$<br>
+                18/90 ammo<br>
+                Don't worry to prefire every position <br>
+                or shoting out your entair magazine<br>
+                Oneshot in head on close range<br>
+                Be carefull with very high inaccuracy after <br>
+                first cuple of shots <br>
+
+            </div>
+
+            <div class="imgwithtextblock">
+                <figure class="gunimg" id="cz">
+                    <img src="/public/assets/img/Weapon/CZ75-Auto.png">
+                </figure>
+                CZ75-Auto<br>
+                500$<br>
+                12/12 ammo<br>
+                Is Fully automatic <br>
+                Very low ammo count <br>
+                Be carefull with very high inaccuracy after <br>
+                first two shots <br>
+                Kill reward is only 100$<br>
+                Do not try to spray on medium range <br>
+                Try to burst fire <br>
+
+            </div>
+
+            <div class="imgwithtextblock">
+                <figure class="gunimg" id="deagle">
+                    <img src="/public/assets/img/Weapon/Desert_Eagle.png">
+                </figure>
+                Desert Eagle<br>
+                700$<br>
+                7/35 ammo<br>
+                Be carefull with very high inaccuracy after <br>
+                first two shots <br>
+                Duble shot in torso in close range <br>
+                Triple shot in torso in medium range <br>
+                One shot head with kevlar <br>
+                Do not try to ever spray <br>
+            </div>
+
+            <div class="imgwithtextblock">
+                <figure class="gunimg" id="r8">
+                    <img src="/public/assets/img/Weapon/R8.png">
+                </figure>
+                R8<br>
+                600$<br>
+                8/8 ammo<br>
+                Very low ammo count <br>
+                Be aware of delayed shots <br>
+                Very high inaccuracy with second fire mode <br>
+                Best long range pistol <br>
+                One shot in head <br>
+                One shot in stomach without kevlar <br>
+                Two shot torso with/without kevlar <br>
+
+            </div>
+
+
+
+        </div>
+
         </div>
 
 
-</div> 
+
+    </section>
+    <section class=sectionblank>
+        Economic
+    </section>
+
+    <section id=sectioneconomic>
+        <div class="flexcontainer vertical">
+            <div class="textbox Textvertical">
+                Here's is nice demonstration of why: <br>
+                you need to hold as a CT <br>
+                you need to push as a T <br>
+                you need to play more with farm guns
+            </div>
+
+            <div class="imgwithtextblock">
+                <figure>
+                    <img id="economyimg" src="/public/assets/img/Page/Economy.png">
+                </figure>
+
+            </div>
+
+        </div>
 
 
-    
+    </section>
+
+    <section class=sectionblank>
+        Movments
+    </section>
+    <section id=sectionmovments>
+
+        <div class="flexcontainer ">
+            <div class="textbox ">
+                Movment is esential to this game, you need to understand something here: <br>
+                First of all you need to remember all of car racing game, and more exactly, Corner Cuttig <br>
+                It will save you some time then you go to your position, 1 second or 10th of second, whatever <br>
+                With this free time you can easily outrun enemy, and take them by surprise or buy some time for yourself
+                if you are on CT side
+            </div>
+        </div>
+
+        <div class="flexcontainer ">
+            <div class="textbox ">
+                Beside that, if you don't have intel on enemies, try to bite on corners fastly moving beside it <br>
+                If some enemy will check your position, no matter how high skill he or she is, a good bite can't be
+                prefired or readed <br>
+                And more importantly, enemy with high chances will shoot one your position, revealing himself by tracer
+                or sound <br>
+                So now you have intel on enemy location, well done
+            </div>
+        </div>
+
+        <div class="flexcontainer ">
+            <div class="textbox ">
+                Another form of movment is strafe, where a side velocity is combined with forewerd one what give you
+                some bust in speed <br>
+                most helpfull this one is for Corner Cuttig and Bunny Hopping
+            </div>
+        </div>
+
+        <div class="flexcontainer">
+            <div class="imgwithtextblock">
+                <figure>
+                    <img src="/public/assets/img/Gif/Strafe.gif">
+                </figure>
+                Exemple of Strafe
+            </div>
+        </div>
+
+        <div class="flexcontainer ">
+            <div class="textbox ">
+                Bunny Hopping is action there you rapidly jump, summing up speed from air acceleration and strafing <br>
+                You can rapidly jump by binding mouse wheel for jump<br>
+                Notice, that if you will fail you grip on jump you will lose acceleration and will be slowed for brief
+                moment<br>
+                BH is considerd very difficult movment technic, so don't worry very much about constantly loosing grip
+                on jump
+            </div>
+        </div>
+
+        <div class="flexcontainer ">
+            <div class="textbox ">
+                Some tips for MM: <br>
+                ---- <br>
+                -> Don't use BH if you can't make 4 consequtive jumps frequently <br>
+                ---- <br>
+                -> MM has a velocity limiter what deny air strafe acceleration
+            </div>
+        </div>
+        <div class="flexcontainer">
+            <div class="imgwithtextblock">
+                <figure>
+                    <img src="/public/assets/img/Gif/Bhop.gif">
+                </figure>
+                Exemple of BH, Bunny Hope
+            </div>
+        </div>
+
+        <div class="flexcontainer ">
+            <div class="textbox ">
+                Beside everything that have been said above: <br>
+                ---- <br>
+                -> Try not to jump if you don't want to Cut a Corner or Bunny Hoop <br>
+                ---- <br>
+                -> MM has a velocity limiter what deny air strafe acceleration <br>
+                ---- <br>
+                -> When baiting, don't try to repeat this action in same rythm because enemy will read your next movment
+                and prefire <br>
+                ---- <br>
+                and most classical one <br>
+                -> Run with knife for maximum speed
+            </div>
+        </div>
+
+        </div>
+    </section>
+    <section class=sectionblank>
+        Utility
+    </section>
+    <section id=sectionutility>
+
+        <div class="flexcontainer ">
+            <div class="textbox ">
+                Utility is referred to granades in this game and they are far more usefull then an beginer player can
+                imagine and <br>
+                First of all, always buy granade, at least 1 smoke for CT or 1 flesh for T <br>
+                Secondly, you can throw granade in three modes: Slow (Right Click), with Medium Strenght (Right Click +
+                Left Click) and Strong throw (Left Click)
+            </div>
+        </div>
+
+        <div class="flexcontainer ">
+            <div class="textbox ">
+                Smoke are most easiest utilitis to use, they are used mostly for bloking view on two or more sided
+                position <br>
+                On higher levels, smokes are used to stop T from pushing, becouse of mechanics of smoke in this game
+                <br>
+                Person that exit from smoke will see another from outside with delay but from outside, enemies will see
+                without delay
+            </div>
+        </div>
+
+        <div class="flexcontainer">
+            <div class="imgwithtextblock">
+                <figure>
+                    <img src="/public/assets/img/Gif/Smoke.gif">
+                </figure>
+                Exemple of "Smoking position" <br>
+                so teammates can push with no worries about crossfire from enemies
+            </div>
+        </div>
+
+        <div class="flexcontainer ">
+            <div class="textbox ">
+                Flesh are most esentil utilitis in game, they are harder to master becouse they need to be thrown
+                specialy so enemies will not see them fast enoght to react (to turn around from them) <br>
+                Most basic flesh throw is to throw it stright up, this will flesh everyone who is not looking down <br>
+                More advenced flesh is Corner flesh what is thrown with low strenght so it will fly slow enought to not
+                be to loud, and to suprise enemies with "POP-flesh"
+            </div>
+        </div>
+
+        <div class="flexcontainer">
+            <div class="imgwithtextblock">
+                <figure>
+                    <img src="/public/assets/img/Gif/SlowThrow.gif">
+                </figure>
+                A Exemple of Slow throw<br>
+            </div>
+        </div>
+
+        <div class="flexcontainer ">
+            <div class="textbox ">
+                Molotov/Incendiery have 2 propouse, to make enemies leave their camping positions (T), and to make
+                enemies slow down their push (CT)
+            </div>
+        </div>
+
+        <div class="flexcontainer">
+            <div class="imgwithtextblock">
+                <figure>
+                    <img src="/public/assets/img/Gif/Molotov.gif">
+                </figure>
+                A Terrorist throw a molotov on standard camping position<br>
+            </div>
+        </div>
+
+        <div class="flexcontainer ">
+            <div class="textbox ">
+                HE (High Explosive) or how people name them 'nade, are used to damage enemys that are hiding behind the
+                wall or obstacle <br>
+                Nade's can be used to delay T-push, but I recommand to save nade's to later minutes of round <br>
+                There they can save your life if you know there enemies are <br>
+            </div>
+        </div>
+
+        <div class="flexcontainer ">
+            <div class="textbox ">
+                Last granade in list is decoy granade, rarly used and prety much bought randomly becouse of small price
+                of 50$ <br>
+                Can be usefull to use against Pro player what try to read situation on the map and momentary turn around
+                from flash granade <br>
+                In this situation you can make an agressive push with decoy but it's very dangerous to do so becouse not
+                everyone in this game are good player, yeah... <br>
+            </div>
+        </div>
 
 
+        <div class="flexcontainer">
+            <div class="imgwithtextblock">
+                <figure>
+                    <img src="/public/assets/img/Gif/CTExecute.gif">
+                </figure>
+                A good Exemple of CT execute <br>
+            </div>
+        </div>
 
-<div class="I2 BI">
-    <a id="a2"></a>
-    <div class="sty itxt" >
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto enim magnam similique, officia placeat modi aliquam commodi consequuntur aspernatur voluptatem porro quas. Quibusdam blanditiis necessitatibus possimus iure ducimus cumque vitae!
-    </div>
+    </section>
 
-    <div class="sty navb tri">
-        <a href="#a1"> Home  </a>
-    </div>
-    <div class="sty navb tri">
-        <a href="#a3">Forward</a>
-    </div>
+    <section class=sectionblank>
+        Intel
+    </section>
+    <section id=sectionintel>
 
+        <div class="flexcontainer ">
+            <div class="textbox ">
+                You have 2 friends in this game: Eyes and Ears, Radar and Enemy footsteps. <br>
+                There is one very simple rule, be quite, shift (move slowly) on all non start position <br>
+                Try to find time to hold your postion and sense presence of enemys on the map <br>
+                And most importantly, check your radar more often
+            </div>
+        </div>
 
-</div> 
+        <div class="flexcontainer">
+            <div class="imgwithtextblock">
+                <figure>
+                    <img src="/public/assets/img/Gif/Radar.gif">
+                </figure>
+                Exemple of Radar hack (for informative propouse only of course) <br>
+                Play-Style of both teams: <br>
+                From CT: Eco-Push <br>
+                From T: Low Bets <br>
+                [Don't be fooled by decoy's]
+            </div>
+        </div>
 
-<div class="I3 BI"> 
-    <a id="a3"></a>
-    <div class="sty itxt tri" >
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi iusto minima, animi nulla dolores, repellendus sunt tenetur officia fugit id eos? Enim, porro quis possimus quasi minima dolore tempora? Vero.
-    </div>
+    </section>
 
-    <div class="sty navb">
-        <a href="#a1"> Home  </a>
-    </div>
+    <section class=sectionblank>
+        Play-Styles
+    </section>
 
-    <div class="sty navb">
-        <a href="#a2"> Back  </a>
-    </div>
+    <section id=sectionplaystyles>
 
-    <div class="sty navb">
-        <a href="#a4">Forward</a>
-    </div>
+        <div class="flexcontainer ">
+            <div class="textbox ">
+                What is a play-style of the? <br>
+                Well, first of all it's play-style of whole team, so <br>
+                If there is someone who try to rebel in your team agains your team play style <br>
+                you will not win a single game <br>
+                Yes, this game is team-based, you need fullparty of 5 friends to win.
+            </div>
+        </div>
 
-</div> 
+        <div class="flexcontainer ">
+            <div class="textbox ">
+                An interest thing in this game are Fake's <br>
+                This consist mainly from utility thrown on another site to disorient and missinform enemies <br>
+                Which can lead to suprise push and advantage for (mostly) T side
+            </div>
+        </div>
 
-<div class="I4 BI">
-    <a id="a4"></a>
-    <div class="sty itxt" >
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam unde corporis, ratione nihil cum aut exercitationem. Explicabo aut quam iste placeat odio nulla fugit error, eum, mollitia non veritatis nobis.
-    </div>
+        <div class="flexcontainer ">
+            <div class="textbox ">
+                So let's continue, there are common (economical one's) play-styles and some uniqu to CT and T sides:
+                <br>
+                Common: <br>
+                ♻️ --- Eco --- ♻️ <br>
+                Round there you don't buy anything to save money for later game <br>
+                But i recommand to buy p250 becouse it's cheap and quite powerfull for 300$ <br>
+                This kind of rounds are not meant to be won, and there is some common missunderstanding among many
+                player <br>
+                You need to play more passivly, becouse if you will rush on enemies without anything beside pistol,
+                enemies will gain fast-income killing you <br>
+                Be a rat, be a camper and don't be ashamed for doing so <br>
+                ✊ --- Force --- ✊ <br>
+                Round there your team don't have money for Rifle+Cevlar combo, so everyone are buying farmguns+kevlar
+                <br>
+                If your team is professiongal enoght, you can ignore "eco-round to fullbuy" setup <br> But be carefull,
+                if you lose a force, your team will not have enought money even on SMG next round<br>
+                🌀 --- Full-Buy --- 🌀 <br>
+                Classical round, everyone have rifle+kevlar combo and additionaly, full granade stack and pistol <br>
+                ½ --- Semi-Buy --- ½ <br>
+                Typicle happen on non-full party <br>
+                Someone in team have a full-buy but other teammates have money only for force, I don't recommand this
+                kind of tactics <br>
+                <br> CT: <br>
+                === Counter-Push === <br>
+                Round there CT try to capture positions of T, using utility and rush, doing so will probably take
+                enemies by surprise, but, don't forget <br>
+                If you are doing a stack counter-push (5 person push) you have 50/50 to not guess where terrorist are
+                pushing (if they are doing so) B or A ? <br>
+                and if doing solo push or with one-two teammates, you can end be overruned by stack of enemies <br>
 
-    <div class="sty navb tri">
-        <a href="#a1"> Home  </a>
-    </div>
+                === Stack === <br>
+                Round there CT guard only one site in 5, this is an risky tactic and is mainly used on eco rounds or
+                more rarly seen on force rounds <br>
+                What to say about it ? 50/50 chance to guess and if enemies have good intel, this chances go stright
+                down to 0% <br>
 
-    <div class="sty navb tri">
-        <a href="#a3"> Back  </a>
-    </div>
+                <br> T: <br>
+                /// Rush \\\ <br>
+                Simple as hello world, stack of 5 terrorists rush A or B site with minimal utility execute, <br>
+                mainly executed wrong becouse of poor commuication between teammates <br>
+                this play-style is most difficult to master, everyone need to be prepared to fast reaction, fast
+                adaptation and improvisation on place, if someone in team will forgot or will do actions with
+                minimal delay, everything will go wrong, I bet you it will <br>
 
-    <div class="sty navb tri">
-        <a href="#a5">Forward</a>
-    </div>
+                /// Execute \\\ <br>
+                Sometimes stack, sometimes no, an push with smokes and molotovs to drawback enemies from camping
+                positions and to free site to plant a bomb <br>
+                Most classical play-style of terrorists, often paired with fake utility and fack pushes <br>
 
+                /// Freeplay \\\ <br>
+                Round there T spred across the map and are trying to find open-frags to open a sites <br>
+                Mainly used on non-team party and casual servers of CSGO, not recommanded for MM <br>
 
-</div> 
+                /// Lowbeats \\\ <br>
+                Round there T hold position to last minute, similar to Freeplay with difference that
+                Lowbeats are played more passivly <br>
+                This kind of tactics is used on eco rounds or if CT have been pushing and
+                counter-rushing very often <br>
 
-<div class="I5 BI">
-    <a id="a5"></a>
-    <div class="sty itxt tri" >
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint voluptatum praesentium quidem nam. Optio dicta similique, voluptatibus molestias, quasi ex totam nisi nemo facilis, odit cupiditate repudiandae consequuntur autem voluptatum?
-    </div>
+            </div>
+        </div>
 
-    <div class="sty navb">
-        <a href="#a1"> Home  </a>
-    </div>
+    </section>
 
-    <div class="sty navb">
-        <a href="#a4"> Back  </a>
-    </div>
+    <section class=sectionblank>
+        Roles
+    </section>
 
-    <div class="sty navb">
-        <a href="#a6">Forward</a>
-    </div>
+    <section id=sectionroles>
 
+        <div class="flexcontainer ">
+            <div class="textbox ">
+                One thing about roles in team is that, they don't really exist <br>
+                In a good team everyone can change their style based on that a team need: <br>
+                <br>
+                An good team need 4 main player and 1 sniper
+                <br> or <br>
+                5 players armed with farmguns on force rounds
+                <br> or <br>
+                On CT side, 3 main player and 2 sniper
+            </div>
+        </div>
 
+    </section>
 
-</div> 
-
-<div class="I6 BI">
-    <a id="a6"></a>
-    <div class="sty itxt" >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, illo consectetur qui ut libero enim ea cupiditate corrupti, nemo ipsam saepe id? Inventore, modi? Magnam soluta quisquam deleniti omnis quidem.
-    </div>
-
-    <div class="sty navb tri">
-        <a href="#a1"> Home  </a>
-    </div>
-
-    <div class="sty navb tri">
-        <a href="#a5"> Back  </a>
-    </div>
-
-    <div class="sty navb tri">
-        <a href="#a7">Forward</a>
-    </div>
-
-
-
-</div> 
-
-<div class="I7 BI">
-    <a id="a7"></a>
-    <div class="sty itxt tri" >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia maiores porro voluptate omnis odio molestias? Ipsam esse aspernatur blanditiis nesciunt, molestiae enim? Cum officia pariatur vero obcaecati quod provident ex?
-    </div>
-
-    <div class="sty navb">
-        <a href="#a1"> Home  </a>
-    </div>
-
-    <div class="sty navb">
-        <a href="#a6"> Back  </a>
-    </div>
-
-    <div class="sty navb">
-        <a href="#a8">Forward</a>
-    </div>
-
-
-</div> 
-
-<div class="I8 BI">
-    <a id="a8"></a>
-    <div class="sty itxt" >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur officiis ullam, laborum quasi nostrum harum omnis dolor corporis eligendi. Possimus ipsum, hic sequi quis corrupti nemo voluptatum accusamus sint deserunt!
-    </div>
-
-
-    <div class="sty navb tri">
-        <a href="#a1"> Home  </a>
-    </div>
-
-    <div class="sty navb tri">
-        <a href="#a7"> Back  </a>
-    </div>
-
-
-</div> 
-
-
-<footer class="BI">
-
-
-</footer>
+    <footer>
+        <a href="#"></ahref>About<</a>
+    </footer>
 
 </body>
-</html>
